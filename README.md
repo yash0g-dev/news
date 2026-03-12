@@ -9,6 +9,7 @@ A modern **News Web App** that collects the latest headlines from multiple sourc
 
 Stay updated with global news across categories like **Technology, Business, Sports, Entertainment, and more.**
 
+
 ---
 
 ## 🚀 Features
@@ -19,6 +20,19 @@ Stay updated with global news across categories like **Technology, Business, Spo
 - 📱 Fully responsive design  
 - ⚡ Fast and smooth UI  
 
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yash0g-dev/news.git
+cd news
+npm install 
+npm run start
+npm run dev
+```
 ---
 
 ## 🛠 Tech Stack
@@ -42,15 +56,4 @@ Stay updated with global news across categories like **Technology, Business, Spo
 ![Topic](./screenshots/topic.png)
 
 ---
-
-## 📦 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/news.git
-cd news
-npm install 
-npm run start
-npm run dev
 
