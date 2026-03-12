@@ -5,7 +5,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/yourusername/news-aggregator)
 ![License](https://img.shields.io/github/license/yourusername/news-aggregator)
 
-A modern **News Aggregator Web App** that collects the latest headlines from multiple sources and presents them in a clean and user-friendly interface.
+A modern **News Web App** that collects the latest headlines from multiple sources and presents them in a clean and user-friendly interface.
 
 Stay updated with global news across categories like **Technology, Business, Sports, Entertainment, and more.**
 
@@ -26,9 +26,9 @@ Stay updated with global news across categories like **Technology, Business, Spo
 | Layer | Technology |
 |------|-------------|
 | Frontend | React |
-| Styling | CSS / Tailwind |
+| Styling | CSS   |
 | API | News API |
-| Deployment | Vercel / Netlify |
+| Deployment | Vercel  |
 
 ---
 
@@ -44,3 +44,8 @@ Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/news.git
+cd news
+npm install 
+npm run start
+npm run dev
+
