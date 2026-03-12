@@ -35,7 +35,11 @@ Stay updated with global news across categories like **Technology, Business, Spo
 ## 📸 Preview
 
 ![App Screenshot](./screenshots/Herop.png)
-(./screenshots/Screenshot 2026-03-12 at 23-44-54 News.png.png)
+![Article Page](./screenshots/article.png)
+![Article Description](./screenshots/Description.png)
+![Headline](./screenshots/headline.png)
+![UI](./screenshots/ui.png)
+![Topic](./screenshots/topic.png)
 
 ---
 
