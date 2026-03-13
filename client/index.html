@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+    <title>News</title>
+</head>
+<body id="app">
+    <div class="overlay">
+        <h1 class="pl-logo"></h1>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="page-container">
+
+        <!-- header section-->
+
+        <header class="page-header">
+            <div class="header-container">
+                <div class="navigation">
+                    <div class="weather">
+                        <div class="weather-container">
+                            <p id="day"></p>
+                            <p id="Location-Temperature"><span id="Location"></span> <span id="temperature"></span></p>
+                            <p id="W-descripiton"></p>
+                        </div>
+                    </div>
+                    <div class="label test">
+                        <h1>The News</h1>
+                    </div>
+                    <div class="search-bar-container">
+                        <div class="search-bar">
+                            <input type="text" name="searchBar" id="search" placeholder="search news">
+                            <button type="submit" class="search-button">
+                                <i class="fa-solid fa-magnifying-glass" ></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                  
+            </div>
+        </header>
+        <nav class="navbar">
+            <ul class="nav-items-container">
+              <li><a class="pageLinks" href="index.html" id="home">Home</a></li>
+              <li><a class="pageLinks" href="/src/pages/local.html" id="local">Local</a></li>
+              <li><a class="pageLinks" href="/src/pages/international.html" id="international">International</a></li>
+              <span class="separator">|</span>
+              <li><a class="pageLinks" href="/src/pages/weather.html" id="weather">Weather</a></li>
+              <li><a class="pageLinks" href="/src/pages/sports.html" id="sports">Sports</a></li>
+              <li><a class="pageLinks" href="/src/pages/culture.html" id="culture">Culture</a></li>
+              <li><a class="pageLinks" href="/src/pages/econmics.html" id="culture">Economy</a></li>
+            </ul>
+        </nav>
+        <!-- news-container -->
+        <div class="news-container">
+
+
+            <!-- main-section -->
+
+            <main  class="news-section">
+                <div class="main-news-container">
+
+                    <div class="heading">Top Headlines</div>
+                    
+                    <div id="top-headline-section">
+                        <div id="top-headline">
+
+                        </div>
+                        <div class="other-news">
+      
+
+                        </div>
+                        
+                    </div>
+                </div>
+
+                            
+             <!-- aside-section -->
+                
+                <aside class="latest-news-section">
+                    <div class="latest-news-container">
+                        <h1>Latest</h1>
+                        <hr>
+        
+                    </a>
+        
+                </aside>
+            </main>
+
+            <hr class="section-seperator">
+
+            <section id="weekend-reads-section">
+                <div class="section-heading">Weekend Reads</div>
+                <div class="weekend-reads-container flex-r">
+
+                </div>
+
+            </section>
+
+            <hr class="section-seperator"> 
+
+            <section class="more-news-container">
+                <h1 id="cc4-heading">More News</h1>
+                <div class="more-news">
+
+                </div>
+
+            </section>
+
+            <hr class="section-seperator"> 
+
+            <section class="catalouge">
+                <div id="c1" class="c-section">
+                    <h2 id="heading">USA and Canada</h2>
+                </div>
+                <div id="c2" class="c-section">
+                    <h2 id="heading">Israel Gaza War</h2>
+                </div>
+                <div id="c3" class="c-section">
+                    <h2 id="heading">War in Ukraine</h2>
+                </div>
+                <div id="c4" class="c-section">
+                    <h2 id="heading">India</h2>
+                </div>
+            </section>
+
+            <hr class="section-seperator"> 
+
+        </div>
+
+    </div>
+
+    <!-- templates -->
+
+    <template class="card-concept-0">
+        <article class="cc0-container">
+            <a class="cc0-link news " href="" >
+                <figure class="cc0-img-container img-container ">
+                    <img class="cc0-img img" src="" alt="">
+                </figure>
+                <h2 class="cc0-title title "></h2>
+                <p class="cc0-description description "></p>
+                <p>By <span class="author"></span></p>
+                
+            </a>
+        </article>
+    </template>
+
+    <template class="card-concept-1">
+        <article class="cc1-container">
+            <a class="top-news newslink cc1-link news" href="">
+                <figure  class="img-container">
+                    <img id="news-img" class="img" src="" alt="">
+                </figure>
+                <div id="news-title-container">
+                    <p id="news-title"  class="title"> </p>
+                    <span class="source"></span>
+                </div>
+            </a>
+        </article>
+
+    </template>
+
+    <template class="card-concept-2">
+        <a class="aside-news-card  news" href="">
+            <div class="time-section">
+                <span id="time-holder"></span>
+                <div id="left-border"></div>
+            </div>
+            <div class="aside-news-title ">
+                <p  id="news-title" class="heading title"></p>
+                <p id="aside-author" class="author" ></p>
+            </div>
+        </a>
+    </template>
+
+    <template class="card-concept-3">
+        <article id="cc-3"> 
+            <a class="cc3-link  news" href="">
+                <figure  class="cc3-img-container img-container">
+                    <img id="cc3-img" class="img" src="" alt="">
+                </figure>
+                <div id="cc3-title-container" >
+                    <p id="news-title" class="heading title"></p>
+                    <p class="cc3-description description"></p>
+                    <div class="source-container">
+                        <span  class="time"></span>  <span class="separator">|</span>  <span class="source"></span>
+                    </div>
+                </div>
+            </a>
+
+        </article>
+    </template>
+
+    <template class="card-concept-4">
+        <article id="cc-4" >
+            <a href="" id="cc4-link" class="news">
+                <p  class="cc4-title title"></p>
+                <span class="cc4-time time" ></span>
+                <span class="separator">|</span>
+                <span class="source" id="cc4-source"></span>
+            </a>
+        </article>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://kit.fontawesome.com/2ec1488994.js" crossorigin="anonymous"></script>
+    <script type="module" src="./src/js/script.js"></script>
+</body>
+</html>

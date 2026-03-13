@@ -1,0 +1,29 @@
+{
+  "name": "news",
+  "version": "2.0.0",
+  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/news-aggregator) ![GitHub stars](https://img.shields.io/github/stars/yourusername/news-aggregator) ![GitHub forks](https://img.shields.io/github/forks/yourusername/news-aggregator) ![License](https://img.shields.io/github/license/yourusername/news-aggregator)",
+  "main": "vite.config.js",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run start:dev --prefix server",
+    "dev": "concurrently -n CLIENT,SERVER -c blue,green \"npm run client\" \"npm run server\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yash0g-dev/news.git"
+  },
+  "keywords": [],
+  "author": "yash gupta",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yash0g-dev/news/issues"
+  },
+  "homepage": "https://github.com/yash0g-dev/news#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
